@@ -1,0 +1,17 @@
+.blogs {
+	background: black;
+	padding-bottom: 5rem;
+
+	h2 {
+		font-weight: lighter;
+		font-size: 1.6rem;
+		text-align: center;
+		margin: none;
+		margin-bottom: 4rem;
+	}
+
+	&__container {
+		@include flex-space-evenly;
+		flex-wrap: wrap;
+	}
+}
